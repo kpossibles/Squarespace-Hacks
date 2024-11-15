@@ -6,8 +6,9 @@ https://forum.squarespace.com/topic/260721-social-media-icons-can-we-change-them
 
 1. Go to Custom CSS page on your site url where it ends in `/config/pages/website-tools/custom-css`. You can get there thru Website > Pages > Website Tools (at bottom of sidebar) > Custom CSS.
 2. Paste in the code at the bottom of the Custom CSS page and save.
-3. Paste in the url of your Bluesky link at your site url ending in `/config/settings/website/social-links`
+3. Paste in the url of your Bluesky link in Social Links section on your site url where it ends in `/config/settings/website/social-links`
 4. It must start with bsky.app for it to work. Eg) `https://bsky.app/profile/kpossibles.bsky.social`
+5. If you want to change it to your custom bluesky handle, just replace with your website url in the code below. Eg) `href*="tsundokulife.com"`
 
 Customize your bluesky icon by updating the url in the code below:
 * Black: `https://raw.githubusercontent.com/OzzyCzech/bluesky-icon/refs/heads/main/dist/bluesky-icon.svg`
